@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/seethalakshmii/EKS-ARGOCD-DEPLOY.git
     targetRevision: HEAD
-    path: k8s/production
+    path: K8s/production
 
   destination:
     server: https://kubernetes.default.svc
@@ -19,3 +19,5 @@ spec:
     automated:
       prune: true
       selfHeal: true
+    syncOptions:
+      - CreateNamespace=true
