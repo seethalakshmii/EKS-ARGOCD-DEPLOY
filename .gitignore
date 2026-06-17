@@ -1,0 +1,16 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+terraform.tfvars
+
+# Kubernetes
+*.log
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
