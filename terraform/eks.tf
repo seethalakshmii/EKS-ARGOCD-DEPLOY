@@ -20,7 +20,7 @@ module "eks" {
 
     default = {
 
-      desired_size = 3
+      desired_size = 4
       min_size     = 2
       max_size     = 5
 
